@@ -1,0 +1,15 @@
+language: objective-c
+
+sudo: false
+
+env:
+  global:
+    - EnableNuGetPackageRestore=true
+
+before_install:
+  - brew update
+  - brew install mono
+
+script:
+  - dmcs millipede.cs
+  - mono millipede.exe
