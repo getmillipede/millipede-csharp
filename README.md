@@ -4,6 +4,24 @@
 
 Print a beautiful millipede
 
+## Installation
+
+### compile & try
+
+Using Windows
+
+````sh
+c:\> csc millipede.cs
+c:\> millipede.exe 42
+```
+
+Using Mono
+````sh
+$ mcs millipede.cs
+$ mono millipede.exe 42
+```
+
+
 ## Support
 
 * [Stack Overflow](http://stackoverflow.com/questions/tagged/millipede)
