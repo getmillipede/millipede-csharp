@@ -23,7 +23,7 @@ namespace millipede
                 {
                     string tok = args[i];
                     int tmp = 0;
-                    if (!int.TryParse(tok, out tmp))
+                    if (!int.TryParse(tok, out tmp) && !isReverse)
                         isReverse = tok == "-r";
                     else
                         size = tmp;
